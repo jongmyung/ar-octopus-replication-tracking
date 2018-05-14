@@ -29,8 +29,9 @@ octopus:
 Replication satus from asia shard
 
     > Octopus.replication_position(:asia)
-    => 
+    => {:file_name=>"mysql-bin.000001", :position=>36668586}
 
 Replication status from europe shard
 
     Octopus.replication_position(:europe)
+    => {:file_name=>"mysql-bin.000001", :position=>36668583}
