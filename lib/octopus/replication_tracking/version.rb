@@ -1,5 +1,5 @@
 module Octopus
   module ReplicationTracking
-    VERSION = '0.0.1.dev'
+    VERSION = '0.1.0'.freeze
   end
 end
