@@ -18,10 +18,10 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'ar-octopus', '~> 0.8.6'
 
-  s.add_development_dependency 'pry-byebug', '~> 0'
-  s.add_development_dependency 'rake', '~> 0'
+  s.add_development_dependency 'pry-byebug', '~> 3.4'
+  s.add_development_dependency 'rake', '~> 12.3'
   s.add_development_dependency 'rspec', '~> 3'
-  s.add_development_dependency 'rubocop', '~> 0'
+  s.add_development_dependency 'rubocop', '~> 0.49.0'
 
   s.license = 'MIT'
 end
