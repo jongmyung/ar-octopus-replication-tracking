@@ -35,7 +35,7 @@ octopus:
 ```
 
 ### Syntax
-Replication satus from asia shard
+Replication status from asia shard
 
     > Octopus.replication_position(:captain_america)
     => {:file_name=>"mysql-bin.000001", :position=>36668586}
