@@ -4,6 +4,7 @@ This Gem is extension of ar-octopus to help to find replication file and positio
 ## Notes
 * Currently only working for mysql2 adapter
 * DB user requires to have access `show master status;` and `show slave status;`
+* This statement provides status information about the binary log files of the master or slave. It requires either the SUPER or REPLICATION CLIENT privilege.
 
 ## Install
 Add this line to Gemfile:
