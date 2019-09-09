@@ -9,7 +9,7 @@ This Gem is extension of ar-octopus to help to find replication file and positio
 ## Install
 Add this line to Gemfile:
 
-    gem 'ar-octopus-replication-tracking', git: 'git://github.com/jongmyung/octopus-replication-tracking.git'
+    gem 'ar-octopus-replication-tracking'
 
 ## How to Use
 Setup `shards.yml` and ready to use.
