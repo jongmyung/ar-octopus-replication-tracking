@@ -36,12 +36,12 @@ octopus:
 ```
 
 ### Syntax
-Replication status from asia shard
+Replication status from captain_america shard
 
     > Octopus.replication_position(:captain_america)
     => {:file_name=>"mysql-bin.000001", :position=>36668586}
 
-Replication status from europe shard
+Replication status from ironman shard
 
     Octopus.replication_position(:ironman)
     => {:file_name=>"mysql-bin.000001", :position=>36668583}
